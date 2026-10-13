@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "simpleac",
+  "version": "${version}",
+  "name": "SimpleAC",
+  "description": "Server-side anti-cheat: Speed, Fly, Reach, KillAura, AutoCrystal, AutoTotem, AutoClicker.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "main": ["com.example.simpleac.SimpleAC"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
